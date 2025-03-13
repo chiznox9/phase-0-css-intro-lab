@@ -1,37 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to CSS Lab</title>
-    <!-- Your code here! -->
-  </head>
+    <link rel="stylesheet" href="./style.css"> <!-- Fixed file name from "styles.css" to "style.css" -->
+</head>
 
-  <body>
+<body>
 
-    <div>
-      <h1 id='main-header'>How Does Writing CSS Differ From Writing HTML?</h1>
-      <p>As we write CSS these are the type of questions we might ask ourselves:</p>
-
-      <ul>
-        <li class='perspective-questions'>Should the layout of the text be in a single or double column?</li>
-        <li class='perspective-questions'>Should we use a different font color for the header?</li>
-        <li class='perspective-questions'>How should the same content appear
-          differently on a desktop versus a mobile device?</li>
-      </ul>
-
-      <p>All of the questions above deal with the aesthetic considerations of the page. These are the concerns of the presentation layer (CSS).</p>
-      <p>As a contrast, let's consider the type of questions we might ask ourselves as we write HTML:</p>
-
-      <ul>
-        <li class='perspective-questions'>Does the order of items within a list matter? Should it be a numbered list?</li>
-        <li class='perspective-questions'>Should we wrap a list of links inside a navigation tag?</li>
-        <li class='perspective-questions'>Is this the most important header in the whole HTML document?</li>
-      </ul>
-
-      <p>The last few questions deal with structure, hierarchy, and meaning. These are the concerns of the content layer (HTML).</p>
-      <p>When we write CSS, we focus on aesthetic and display considerations. When we write HTML, we focus on structure, hierarchy, and meaning.</p>
+    <!-- Wrapper Section -->
+    <div class="wrapper">
+        <h1 id="main-header">Welcome to Riyadh</h1>
+        <h2>Where A Traditional Past Meets A Modern Future.</h2>
     </div>
 
-  </body>
+    <!-- Content Section -->
+    <div class="content">
 
+        <!-- History -->
+        <article>
+            <h3>History</h3>
+            <p>Riyadh has a rich history dating back centuries, evolving into a modern metropolis.</p>
+            <img src="./images/history.jpg" alt="Historical Riyadh">
+        </article>
+
+        <!-- Culture -->
+        <article>
+            <h3>Culture</h3>
+            <p>The city offers a unique blend of ancient traditions and cutting-edge modernity.</p>
+            <img src="./images/culture.jpg" alt="Cultural Riyadh">
+        </article>
+
+        <!-- Tourism -->
+        <article>
+            <h3>Tourism</h3>
+            <p>Explore Riyadh's famous landmarks and cultural sites.</p>
+            <img src="./images/tourism.jpg" alt="Tourism in Riyadh">
+        </article>
+
+        <!-- Links Section -->
+        <div class="links">
+            <a href="http://en.wikipedia.org/wiki/Riyadh">Learn more about Riyadh</a>
+            <a href="https://www.visitsaudi.com/en/see-do/destinations/riyadh">Visit Saudi Arabia</a>
+        </div>
+
+      </div>
+
+</body>
 </html>
+
